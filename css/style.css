@@ -160,6 +160,7 @@ body{
     background-color: #fff;
   }
   .introduction{
+    margin-top:-5px;
     background: #94D60A;
     padding: 65px 0;
     display: flex ;
