@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMG</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+</head>
+<body>
+    <header class="header">
+        <img src="/img/XMG_Logo.png" alt="logo" class="logo">
+        <div class="menu">
+            <span class="span_menu">О НАС</span>
+            <span class="span_menu">НОВИНКИ</span>
+            <span class="span_menu">КАТАЛОГ</span>
+            <span class="span_menu">КОНТАКТЫ</span>
+        </div>
+        <div class="buttons">
+            <input type="text" class="input input_search" placeholder="Поиск ... ">
+            <img src="/img/search.svg" alt="поиск" class="icon icon-search">
+            <img src="/img/cart.svg" alt="корзина" class="icon icon-cart">
+            <img src="/img/login.svg" alt="войти" class="icon icon-login">
+        </div>
+    </header>
+    <div class="container">
+        
+        <div class="slider">
+            <div class="slider__wrapper">
+            <div class="slider__items">
+                    <div class="slider__item">
+                        <div class="banner_1"><img src="/img/banner_2.jpg" alt="banner" class="image_banner"></div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="banner_1"><img src="/img/banner_3.jpg" alt="banner" class="image_banner"></div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="banner_1"><img src="/img/banner_4.jpg" alt="banner" class="image_banner"></div>
+                    </div>
+            </div>
+            </div>
+            <a class="slider__control slider__control_prev" href="#" role="button"></a>
+            <a class="slider__control slider__control_next slider__control_show" href="#" role="button"></a>
+        </div>
+
+        <div class="introduction">
+            <h1 class="introduction_title">XMG - игровые ноутбуки на высшем уровне!</h1>
+            <span class="introduction_body">Мы не просто касаемся максимальной мощности, мы ее определяем. Не будьте довольны меньшим, потому что только производительность и качество приведут вас дальше. XMG предлагает вам надежные, мощные игровые ноутбуки и настольные ПК, которые вы можете настроить индивидуально и которые произведены для вас в Германии. Будущее индивидуально, а игры - наша страсть!</span>
+            <span class="introduction_footer">Твоя игра - твоя машина</span>
+        </div>
+        <script src="/js/main.js"></script>
+        <script>
+            slideShow('.slider', {
+            isAutoplay: true
+            });
+        </script>
+        <div class="paragraphs">
+            <button class="button paragraphs_button"><span class="button_text">Перейти в каталог</span></button>
+            <div class="paragraph">
+                <div class="paragraph_text">
+                    <h2 class="paragraph_title">Разработано с Intel</h2>
+                    <span class="paragraph_body">Ноутбуки XMG завершаются двойной экспертизой Intel и XMG: концепция ноутбука для игр и создания контента премиум-сегмента основана на сотрудничестве с командой Intel по инновациям клиентов. <br> <br> Корпорация Intel проводила исследования и беседы с геймерами и творческими специалистами в течение нескольких часов, чтобы узнать больше о том, какие функции и конструкции они больше всего ценят в ноутбуках. Как мы можем предложить этим клиентам лучший опыт? Вы говорили, мы слушали: XMG и Intel - теперь мы поставляем вместе!</span>
+                </div>
+                <img src="/img/collaboration.png" alt="" class="image_paragraph">
+            </div>
+            <div class="paragraph">
+                <img src="/img/3.png" alt="" class="image_paragraph">
+                <div class="paragraph_text">
+                    <h2 class="paragraph_title">Невероятно длительное время автономной работы</h2>
+                    <span class="paragraph_body">Аккумуляторы имееют замечательную емкость . Это означает, что быстрый ноутбук не расходует энергию так быстро, даже вдали от прямого источника питания: при потоковой передаче видео через WLAN устройство работает восемь часов. <br> <br> Кроме того, простота обслуживания является главным приоритетом: доступ к внутренней части осуществляется через удобно съемную опорную плиту, что позволяет устанавливать дополнительный SSD и больше оперативной памяти в дальнейшем. Встроенный аккумулятор вставлен, а не приклеен, поэтому его также можно заменить.</span>
+                </div>
+
+            </div>
+            <div class="paragraph">
+                <div class="paragraph_text">
+                    <h2 class="paragraph_title">Эксклюзивное магниевое шасси</h2>
+                    <span class="paragraph_body">
+                        Высококачественный магниевый сплав AZ91D дает элегантному шасси XMG больше, чем просто преимущества с точки зрения стабильности и долговечности. Он также обладает значительно лучшими тепловыми свойствами, чем обычный пластик.<br> <br>Материал создает оптимальные условия для высокоэффективных компонентов, чтобы полностью раскрыть их потенциал производительности. Кроме того, сплав убеждает своей уникальной, высококачественной атмосферой и подчеркивает первоклассный характер самой убедительной концепции ноутбука в тонких играх.</span>
+                </div>
+                <img src="/img/1.png" alt="" class="image_paragraph">
+            </div>
+            <div class="paragraph">
+                <img src="/img/1.png" alt="" class="image_paragraph">
+                <div class="paragraph_text">
+                    <h2 class="paragraph_title">Мощные и эффективные видеокарты</h2>
+                    <span class="paragraph_body">Высокопроизводительная видеокарта NVIDIA GeForce GTX 1660 Ti обеспечивает наилучшую возможную среду для воспроизведения даже самых последних игр в формате Full HD с максимальной детализацией. Графическая карта также помогает ускорить интенсивные вычислительные процессы при создании контента с поддержкой графических процессоров. Если вам нужна еще большая производительность, выберите версию GeForce RXT 2070 Max-Q.<br> <br>Он не только производит захватывающие дух эффекты трассировки лучей, которые будут играть все более важную роль в будущих играх, но также ускоряет вычисления ИИ в области машинного обучения с помощью специальных тензорных ядер.</span>
+                </div>
+            </div>
+            <div class="paragraph">
+                <div class="paragraph_text">
+                    <h2 class="paragraph_title">Разработано с Intel</h2>
+                    <span class="paragraph_body">Ноутбуки XMG завершаются двойной экспертизой Intel и XMG: концепция ноутбука для игр и создания контента премиум-сегмента основана на сотрудничестве с командой Intel по инновациям клиентов. <br> <br> Корпорация Intel проводила исследования и беседы с геймерами и творческими специалистами в течение нескольких часов, чтобы узнать больше о том, какие функции и конструкции они больше всего ценят в ноутбуках. Как мы можем предложить этим клиентам лучший опыт? Вы говорили, мы слушали: XMG и Intel - теперь мы поставляем вместе!</span>
+                </div>
+                <img src="/img/1.png" alt="" class="image_paragraph">
+            </div>
+            <h2 class="cards_title">Наши товары</h2>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="/img/apex15.png" alt="" class="image_card">
+                <h2 class="card_title">XMG APEX 15</h2>
+            </div>
+            <div class="card">
+                <img src="/img/apex15.png" alt="" class="image_card">
+                <h2 class="card_title">XMG APEX 15</h2>
+            </div>
+            <div class="card">
+                <img src="/img/apex15.png" alt="" class="image_card">
+                <h2 class="card_title">XMG APEX 15</h2>
+            </div>
+        </div>
+        <div class="button_button">
+            <button class="button cards_button"> <span class="cards_button_text">Перейти в каталог</span> </button>
+        </div>
+    </div>    
+    <footer class="footer">
+        <img src="/img/XMG_Logo.png" alt="logo" class="logo">
+        <div class="footer_menu">
+            <span class="footer_span_menu">О НАС |</span>
+            <span class="footer_span_menu">НОВИНКИ |</span>
+            <span class="footer_span_menu">КАТАЛОГ |</span>
+            <span class="footer_span_menu">КОНТАКТЫ</span>
+        </div>
+        <div class="social">
+            <img src="/img/fb.png" alt="vk" class="icon icon-vk">
+            <img src="/img/inst.png" alt="instagpam" class="icon icon-inst">
+            <img src="/img/youtube.png" alt="youtube" class="icon icon-youtube">
+        </div>
+    </footer>
+</body>
+</html>
