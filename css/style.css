@@ -324,14 +324,118 @@ margin-right: 8px;
         width: 125%;
     }
 }
-@media(max-width:380px){
+@media(max-width:1140px){
     .header{
         padding:20px 20px;
+        height: auto;
+        align-items: center;
+    }
+    .logo{
+        margin-right: 10px;
+    }
+    .span_menu{
+        font-size: 14px;
+    }
+    .span_menu:not(:last-child){
+        margin-right: 10px;
+    }
+    .input_search{
+        display: none;
+    }
+    .icon{
+        height: 25px;
+        width: 25px;
+    }
+    .introduction{
+        padding: 20px 150px;
+    }
+    .introduction_title{
+        text-align: center;
+        font-size: 22px;
+    }
+    .introduction_body{
+        width: auto;
+        font-size: 14px;
+    }
+    .introduction_footer{
+        text-align: center;
+        font-size: 22px;
+    }
+    .paragraphs{
+        background: #151515;
+        padding: 30px 30px;
+    }
+    .button{
+        padding: 10px 20px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .button_text{
+        font-size: 18px;
+    }
+    .paragraph{
+        display: flex ;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+        padding-bottom: 30px;
+        border-top: 1px solid #ffffff;
+    }
+    .paragraph_text{
+        padding: 0 0;
+        order: 1;
+    }
+    .image_paragraph{
+        width: 400px;
+        order: 0;
+    }
+    .cards_title{
+        display: none;
+    }
+    .cards{
+        display: none;
+    }
+    .button_button{
+        margin-top: -60px;
+    }
+    .footer{
+        padding: 20px 20px;
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .social{
+        order: 1;
+    }
+    .footer_menu{
+        order: 2;
+        
+    }
+    .footer_span_menu{
+        font-size:14px ;
+    }
+    .icon-inst, .icon-vk, .icon-youtube{
+    
+        width: 35px;
+        height: 35px;
+    }
+    .icon-youtube{
+        margin-right: 0;
+    }
+@media(max-width:890px){
+    .paragraph_text{
+        padding: 0 60px;
+    }
+}
+@media(max-width:640px){
+    .header{
+        padding:20px 70px;
         flex-wrap: wrap;
         height: auto;
     }
     .logo{
-        margin-right: 10px;
+        margin-right: 10%;
         order: 0;
     }
     .buttons{
@@ -345,7 +449,7 @@ margin-right: 8px;
         margin-bottom: 20px;
     }
     .span_menu:not(:last-child){
-        margin-right: 10px;
+        margin-right: 30px;
     }
     .input_search{
         display: none;
@@ -381,14 +485,9 @@ margin-right: 8px;
     .button_text{
         font-size: 18px;
     }
-    .paragraph{
-        flex-wrap: wrap;
-        margin-bottom: 70px;
-        padding-bottom: 30px;
-        border-top: 1px solid #ffffff;
-    }
     .paragraph_text{
-        padding: 0 0;
+        width: auto;
+        padding: 0 60px;
         order: 1;
     }
     .image_paragraph{
@@ -427,7 +526,7 @@ margin-right: 8px;
     }
     .icon-youtube{
         margin-right: 0;
-    }
+    }}
     @media(max-width:320px){
         .image_paragraph{
             width: 245px;
